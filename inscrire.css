@@ -1,0 +1,84 @@
+form{
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 2px blue solid;
+    border-bottom: orangered 2px solid;
+    box-shadow: 2px black;
+    display: block;
+    width: 420px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 40%;
+}
+
+h2{
+    color: blue;
+    animation: ani 2s linear forwards;
+    margin-left: 240px;
+    text-decoration: underline;
+}
+
+@keyframes ani{
+    to{
+        translate: -126px;
+    }
+}
+
+.cont-form label{
+    display: block;
+}
+
+.cont-form input{
+    margin-bottom: 10px;
+    width: 95%;
+    border-radius: 10px;
+}
+
+form .formul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.formul{
+    display: flex;
+}
+
+.btn1-primary button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: blue;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn2-primary button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: orangered;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn2-primary button:hover{
+    background: blue;
+    transition: 1.5s;
+}
+
+.btn1-primary button:hover{
+    background: orangered;
+    transition: 1.5s;
+}

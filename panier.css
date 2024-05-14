@@ -1,0 +1,10 @@
+.panier{
+    align-items: center;
+    justify-content: center;
+}
+
+.contain{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

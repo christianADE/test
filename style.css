@@ -1,0 +1,74 @@
+
+/* header */
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* partie recherche */
+header input{
+    border-radius: 7px;
+    text-decoration: none;
+    max-height: 30px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* nav barre */
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: black;
+    margin-left: 20px;
+    padding-top: 100px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+.phrase{
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    margin-bottom: 0%;
+}
+
+/* panier */
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav2 .cont-nav a{
+    background: blue;
+    border: 3px olivedrab solid;
+    border-radius: 6px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: 1.2s;
+}
+
+.nav2 .cont-nav a:hover{
+    background: orangered;
+}
+
+.footer .foot-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
